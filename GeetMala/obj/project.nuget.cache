@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "xLLh+KkLSmQ=",
+  "success": true,
+  "projectFilePath": "D:\\Source-Codes\\WinFormsApp1\\GeetMala\\GeetMala.csproj",
+  "expectedPackageFiles": [
+    "D:\\Applications\\Microsoft Visual Studio\\Packages\\NugetCache\\anglesharp\\1.2.0\\anglesharp.1.2.0.nupkg.sha512",
+    "D:\\Applications\\Microsoft Visual Studio\\Packages\\NugetCache\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "D:\\Applications\\Microsoft Visual Studio\\Packages\\NugetCache\\microsoft.web.webview2\\1.0.3065.39\\microsoft.web.webview2.1.0.3065.39.nupkg.sha512",
+    "D:\\Applications\\Microsoft Visual Studio\\Packages\\NugetCache\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "D:\\Applications\\Microsoft Visual Studio\\Packages\\NugetCache\\naudio\\2.2.1\\naudio.2.2.1.nupkg.sha512",
+    "D:\\Applications\\Microsoft Visual Studio\\Packages\\NugetCache\\naudio.asio\\2.2.1\\naudio.asio.2.2.1.nupkg.sha512",
+    "D:\\Applications\\Microsoft Visual Studio\\Packages\\NugetCache\\naudio.core\\2.2.1\\naudio.core.2.2.1.nupkg.sha512",
+    "D:\\Applications\\Microsoft Visual Studio\\Packages\\NugetCache\\naudio.midi\\2.2.1\\naudio.midi.2.2.1.nupkg.sha512",
+    "D:\\Applications\\Microsoft Visual Studio\\Packages\\NugetCache\\naudio.wasapi\\2.2.1\\naudio.wasapi.2.2.1.nupkg.sha512",
+    "D:\\Applications\\Microsoft Visual Studio\\Packages\\NugetCache\\naudio.winforms\\2.2.1\\naudio.winforms.2.2.1.nupkg.sha512",
+    "D:\\Applications\\Microsoft Visual Studio\\Packages\\NugetCache\\naudio.winmm\\2.2.1\\naudio.winmm.2.2.1.nupkg.sha512",
+    "D:\\Applications\\Microsoft Visual Studio\\Packages\\NugetCache\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "D:\\Applications\\Microsoft Visual Studio\\Packages\\NugetCache\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "D:\\Applications\\Microsoft Visual Studio\\Packages\\NugetCache\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "D:\\Applications\\Microsoft Visual Studio\\Packages\\NugetCache\\youtubeexplode\\6.5.3\\youtubeexplode.6.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
