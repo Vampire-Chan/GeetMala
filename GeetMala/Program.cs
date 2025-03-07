@@ -6,7 +6,7 @@ namespace MusicPlayerWinForms
     static class Program
     {
         // Your API key from Google Developer Console.
-        public static string YouTubeApiKey { get; private set; } = "AIzaSyADEBZhml1FHjIk35e1Gee0-sV6PIw0hYo";
+        public static string YouTubeApiKey { get; private set; } = "";
 
         [STAThread]
         static void Main()
