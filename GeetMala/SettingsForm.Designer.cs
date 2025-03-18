@@ -17,88 +17,124 @@ namespace MusicPlayerWinForms
 
         private void InitializeComponent()
         {
-            this.chkShuffle = new CheckBox();
-            this.chkLoop = new CheckBox();
-            this.rbYouTube = new RadioButton();
-            this.rbSpotify = new RadioButton();
-            this.lblPlaybackSpeed = new Label();
-            this.nudPlaybackSpeed = new NumericUpDown();
-            this.rbLightTheme = new RadioButton();
-            this.rbDarkTheme = new RadioButton();
-            this.btnSave = new Button();
-
-            ((System.ComponentModel.ISupportInitialize)(this.nudPlaybackSpeed)).BeginInit();
-            this.SuspendLayout();
-
-            // SettingsForm properties
-            this.Text = "Settings";
-            this.Size = new Size(400, 300);
-            this.StartPosition = FormStartPosition.CenterParent;
-
+            chkShuffle = new CheckBox();
+            chkLoop = new CheckBox();
+            rbYouTube = new RadioButton();
+            rbSpotify = new RadioButton();
+            lblPlaybackSpeed = new Label();
+            nudPlaybackSpeed = new NumericUpDown();
+            rbLightTheme = new RadioButton();
+            rbDarkTheme = new RadioButton();
+            btnSave = new Button();
+            ((System.ComponentModel.ISupportInitialize)nudPlaybackSpeed).BeginInit();
+            SuspendLayout();
+            // 
             // chkShuffle
-            this.chkShuffle.Location = new Point(20, 20);
-            this.chkShuffle.Text = "Enable Shuffle";
-            this.chkShuffle.AutoSize = true;
-
+            // 
+            chkShuffle.AutoSize = true;
+            chkShuffle.Location = new Point(20, 20);
+            chkShuffle.Name = "chkShuffle";
+            chkShuffle.Size = new Size(128, 25);
+            chkShuffle.TabIndex = 0;
+            chkShuffle.Text = "Enable Shuffle";
+            // 
             // chkLoop
-            this.chkLoop.Location = new Point(20, 50);
-            this.chkLoop.Text = "Enable Loop";
-            this.chkLoop.AutoSize = true;
-
+            // 
+            chkLoop.AutoSize = true;
+            chkLoop.Location = new Point(20, 50);
+            chkLoop.Name = "chkLoop";
+            chkLoop.Size = new Size(114, 25);
+            chkLoop.TabIndex = 1;
+            chkLoop.Text = "Enable Loop";
+            // 
             // rbYouTube
-            this.rbYouTube.Location = new Point(20, 80);
-            this.rbYouTube.Text = "YouTube";
-            this.rbYouTube.AutoSize = true;
-            this.rbYouTube.Checked = true;
-
+            // 
+            rbYouTube.AutoSize = true;
+            rbYouTube.Checked = true;
+            rbYouTube.Location = new Point(20, 80);
+            rbYouTube.Name = "rbYouTube";
+            rbYouTube.Size = new Size(88, 25);
+            rbYouTube.TabIndex = 2;
+            rbYouTube.TabStop = true;
+            rbYouTube.Text = "YouTube";
+            // 
             // rbSpotify
-            this.rbSpotify.Location = new Point(20, 110);
-            this.rbSpotify.Text = "Spotify";
-            this.rbSpotify.AutoSize = true;
-
+            // 
+            rbSpotify.AutoSize = true;
+            rbSpotify.Location = new Point(20, 110);
+            rbSpotify.Name = "rbSpotify";
+            rbSpotify.Size = new Size(77, 25);
+            rbSpotify.TabIndex = 3;
+            rbSpotify.Text = "Spotify";
+            // 
             // lblPlaybackSpeed
-            this.lblPlaybackSpeed.Location = new Point(20, 140);
-            this.lblPlaybackSpeed.Text = "Playback Speed:";
-            this.lblPlaybackSpeed.AutoSize = true;
-
+            // 
+            lblPlaybackSpeed.AutoSize = true;
+            lblPlaybackSpeed.Location = new Point(20, 140);
+            lblPlaybackSpeed.Name = "lblPlaybackSpeed";
+            lblPlaybackSpeed.Size = new Size(121, 21);
+            lblPlaybackSpeed.TabIndex = 4;
+            lblPlaybackSpeed.Text = "Playback Speed:";
+            // 
             // nudPlaybackSpeed
-            this.nudPlaybackSpeed.Location = new Point(140, 138);
-            this.nudPlaybackSpeed.DecimalPlaces = 2;
-            this.nudPlaybackSpeed.Increment = 0.1M;
-            this.nudPlaybackSpeed.Minimum = 0.5M;
-            this.nudPlaybackSpeed.Maximum = 2.0M;
-            this.nudPlaybackSpeed.Value = 1.0M;
-
+            // 
+            nudPlaybackSpeed.DecimalPlaces = 2;
+            nudPlaybackSpeed.Increment = new decimal(new int[] { 1, 0, 0, 65536 });
+            nudPlaybackSpeed.Location = new Point(147, 138);
+            nudPlaybackSpeed.Maximum = new decimal(new int[] { 20, 0, 0, 65536 });
+            nudPlaybackSpeed.Minimum = new decimal(new int[] { 5, 0, 0, 65536 });
+            nudPlaybackSpeed.Name = "nudPlaybackSpeed";
+            nudPlaybackSpeed.Size = new Size(120, 29);
+            nudPlaybackSpeed.TabIndex = 5;
+            nudPlaybackSpeed.Value = new decimal(new int[] { 10, 0, 0, 65536 });
+            // 
             // rbLightTheme
-            this.rbLightTheme.Location = new Point(20, 170);
-            this.rbLightTheme.Text = "Light Theme";
-            this.rbLightTheme.AutoSize = true;
-            this.rbLightTheme.Checked = true;
-
+            // 
+            rbLightTheme.AutoSize = true;
+            rbLightTheme.Checked = true;
+            rbLightTheme.Location = new Point(20, 170);
+            rbLightTheme.Name = "rbLightTheme";
+            rbLightTheme.Size = new Size(114, 25);
+            rbLightTheme.TabIndex = 6;
+            rbLightTheme.TabStop = true;
+            rbLightTheme.Text = "Light Theme";
+            // 
             // rbDarkTheme
-            this.rbDarkTheme.Location = new Point(20, 200);
-            this.rbDarkTheme.Text = "Dark Theme";
-            this.rbDarkTheme.AutoSize = true;
-
+            // 
+            rbDarkTheme.AutoSize = true;
+            rbDarkTheme.Location = new Point(20, 200);
+            rbDarkTheme.Name = "rbDarkTheme";
+            rbDarkTheme.Size = new Size(112, 25);
+            rbDarkTheme.TabIndex = 7;
+            rbDarkTheme.Text = "Dark Theme";
+            // 
             // btnSave
-            this.btnSave.Location = new Point(150, 230);
-            this.btnSave.Text = "Save";
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
-
-            // Add controls to the form.
-            this.Controls.Add(this.chkShuffle);
-            this.Controls.Add(this.chkLoop);
-            this.Controls.Add(this.rbYouTube);
-            this.Controls.Add(this.rbSpotify);
-            this.Controls.Add(this.lblPlaybackSpeed);
-            this.Controls.Add(this.nudPlaybackSpeed);
-            this.Controls.Add(this.rbLightTheme);
-            this.Controls.Add(this.rbDarkTheme);
-            this.Controls.Add(this.btnSave);
-
-            ((System.ComponentModel.ISupportInitialize)(this.nudPlaybackSpeed)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            // 
+            btnSave.Location = new Point(150, 230);
+            btnSave.Name = "btnSave";
+            btnSave.Size = new Size(75, 33);
+            btnSave.TabIndex = 8;
+            btnSave.Text = "Save";
+            btnSave.Click += btnSave_Click;
+            // 
+            // SettingsForm
+            // 
+            ClientSize = new Size(384, 272);
+            Controls.Add(chkShuffle);
+            Controls.Add(chkLoop);
+            Controls.Add(rbYouTube);
+            Controls.Add(rbSpotify);
+            Controls.Add(lblPlaybackSpeed);
+            Controls.Add(nudPlaybackSpeed);
+            Controls.Add(rbLightTheme);
+            Controls.Add(rbDarkTheme);
+            Controls.Add(btnSave);
+            Name = "SettingsForm";
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "Settings";
+            ((System.ComponentModel.ISupportInitialize)nudPlaybackSpeed).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
     }
 }
